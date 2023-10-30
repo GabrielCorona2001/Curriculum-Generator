@@ -33,9 +33,9 @@ export default function ContactInfo() {
                 <span>Email:</span>
                 <input type="text" onChange={handleEmailChange} value={state.email} />
                 <span>Número de telefone:</span>
-                <input type="text" onChange={handleTelephoneChange} value={state.telefone} />
+                <input type="text" onChange={handleTelephoneChange} value={state.telephone} />
                 <span>Localização:</span>
-                <input type="text" onChange={handleLocationChange} value={state.telephone} />
+                <input type="text" onChange={handleLocationChange} value={state.location} />
                 <span>Linkedin</span>
                 <input type="text" onChange={handleLinkedin} value={state.linkedin}></input>
             </form>
