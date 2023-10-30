@@ -1,12 +1,13 @@
 import React, { useContext } from "react";
 import { ContextName } from "../../contexts/Context";
 
-
+function replaceEmptyString(value, defaultValue) {
+    return value.trim() === "" ? defaultValue : value;
+}
 
 
 export default function BasicInfo() {
     const { state, setValues } = useContext(ContextName);
-
 
 
 

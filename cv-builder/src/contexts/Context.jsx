@@ -5,7 +5,12 @@ const InitialState = {
     name: 'Seu Nome',
     lastName: 'Seu Sobrenome',
     profission: "Sua profissão",
-    bio: "Fale sobre si mesmo"
+    bio: "Fale sobre si mesmo",
+    email: "Seu e-mail",
+    telephone: "Seu número de telefone",
+    location: "Sua localização",
+    linkedin: "Seu linkedin"
+
 }
 
 const ContextName = createContext();
