@@ -1,4 +1,4 @@
-import "../../styles/infos.css";
+import "../../styles//model/infosModel.css";
 import { ContextName } from "../../contexts/Context";
 import { useContext } from "react";
 
@@ -26,18 +26,18 @@ export default function ContactInfo() {
 
     return (
 
-        <div>
-            <h2>Informações de contato</h2>
+        <div className="buider-info-wrapper">
+            <h2 className="title-builder">Informações de contato</h2>
 
             <form className="form-info">
                 <span>Email:</span>
-                <input type="text" onChange={handleEmailChange} value={state.email} />
+                <input type="text" onChange={handleEmailChange} value={state.email}  className="input-form"/>
                 <span>Número de telefone:</span>
-                <input type="text" onChange={handleTelephoneChange} value={state.telephone} />
+                <input type="text" onChange={handleTelephoneChange} value={state.telephone} className="input-form" />
                 <span>Localização:</span>
-                <input type="text" onChange={handleLocationChange} value={state.location} />
+                <input type="text" onChange={handleLocationChange} value={state.location}  className="input-form"/>
                 <span>Linkedin</span>
-                <input type="text" onChange={handleLinkedin} value={state.linkedin}></input>
+                <input type="text" onChange={handleLinkedin} value={state.linkedin} className="input-form"></input>
             </form>
 
         </div>

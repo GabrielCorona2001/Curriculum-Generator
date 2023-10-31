@@ -1,6 +1,6 @@
-import "../../styles/infos.css";
 import { ContextName } from "../../contexts/Context";
 import { useContext } from "react";
+import "../../styles/builder/infosBuilder.css";
 
 
 
@@ -27,18 +27,18 @@ export default function BasicInfo() {
 
 
     return (
-        <div className="info-block">
+        <div className="buider-info-wrapper">
 
-            <h2>Informações Básicas</h2>
+            <h2 className="title-builder">Informações Básicas</h2>
             <form className="form-info">
                 <span>Primeiro Nome:</span>
-                <input type="text" onChange={handleNameChange} value={state.name} />
+                <input type="text" onChange={handleNameChange} value={state.name} className="input-form" />
                 <span>Sobrenome:</span>
-                <input type="text" onChange={handleLastNameChange} value={state.lastName} />
+                <input type="text" onChange={handleLastNameChange} value={state.lastName} className="input-form" />
                 <span>Profissão:</span>
-                <input type="text" value={state.profission} onChange={handleProfissionChange} />
+                <input type="text" value={state.profission} onChange={handleProfissionChange} className="input-form" />
                 <span>Fale sobre si:</span>
-                <input type="text" value={state.bio} onChange={handleBioChange} />
+                <textarea type="text" value={state.bio} onChange={handleBioChange} className="input-form input-bio" />
             </form>
         </div>
     )

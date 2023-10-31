@@ -1,0 +1,46 @@
+.contact-info-item {
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    align-items: center;
+    width: 120px;
+}
+
+.contact-info-item>p {
+    font-size: 12px;
+}
+
+.info-title {
+    color: #00457e;
+    font-size: 27px;
+}
+
+.wrapper-names {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 3px;
+}
+
+.info-bio {
+    margin-top: 8px;
+    font-size: 12px;
+}
+
+.icons {
+    color: #00457e;
+    font-size: 16px;
+}
+
+.wrapper-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.info-sub-title {
+    font-size: 16px;
+    color: #00457e;
+    border-bottom: 3px solid #00457e;
+    text-transform: uppercase;
+}

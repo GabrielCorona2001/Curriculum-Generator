@@ -1,6 +1,14 @@
+* {
+    margin: 0px;
+    font-family: 'Lato', sans-serif;
+
+}
+
 main {
-    display: grid;
-    grid-template-columns: auto auto;
+    display: flex;
+    flex-direction: row;
+    gap: 80px;
+    justify-content: space-between;
 }
 
 body {

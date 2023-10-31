@@ -2,10 +2,10 @@ import React, { createContext, useState } from 'react';
 
 
 const InitialState = {
-    name: 'Seu Nome',
-    lastName: 'Seu Sobrenome',
+    name: 'Nome',
+    lastName: 'Sobrenome',
     profission: "Sua profissão",
-    bio: "Fale sobre si mesmo",
+    bio: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Accusantium corporis eligendi quos natus consectetur sint eum nobis dolore neque error reiciendis explicabo ex minima quae fugit, corrupti, temporibus soluta blanditiis.",
     email: "Seu e-mail",
     telephone: "Seu número de telefone",
     location: "Sua localização",

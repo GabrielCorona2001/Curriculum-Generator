@@ -1,9 +1,8 @@
 import React, { useContext } from "react";
 import { ContextName } from "../../contexts/Context";
 
-function replaceEmptyString(value, defaultValue) {
-    return value.trim() === "" ? defaultValue : value;
-}
+import "../../styles//model/infosModel.css";
+
 
 
 export default function BasicInfo() {
@@ -13,11 +12,11 @@ export default function BasicInfo() {
 
 
     return (
-        <div>
-            <h1>{state.name}</h1>
-            <h2>{state.lastName}</h2>
-            <p>{state.profission}</p>
-            <p>{state.bio}</p>
+        <div className="basic-info-wrapper">
+            <h1 className="info-title">{state.name + " " + state.lastName}</h1>
+
+            <p className="info-title">{state.profission}</p>
+            <p className="info-bio">{state.bio}</p>
         </div>
     );
 }   
