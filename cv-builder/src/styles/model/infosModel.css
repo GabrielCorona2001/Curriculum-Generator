@@ -3,7 +3,7 @@
     flex-direction: row;
     gap: 10px;
     align-items: center;
-    width: 120px;
+    width: 200px;
 }
 
 .contact-info-item>p {
@@ -38,9 +38,32 @@
     gap: 10px;
 }
 
-.info-sub-title {
-    font-size: 16px;
-    color: #00457e;
-    border-bottom: 3px solid #00457e;
+
+
+.title-skills {
     text-transform: uppercase;
+    font-size: 12.5px;
+    border-bottom: 3px solid #00457e;
+    padding-bottom: 5px;
+
+}
+
+.wrapper-studies {
+    padding: 5px 0px 0px 10px;
+}
+
+.studies-top {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 10px;
+}
+
+.studies-top>span {
+    font-size: 10px;
+}
+
+.studies-top > h2 {
+    font-size: 20px;
 }

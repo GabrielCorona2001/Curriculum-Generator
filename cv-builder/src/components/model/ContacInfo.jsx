@@ -14,28 +14,28 @@ export default function ContactInfo() {
                 <span className="material-symbols-outlined icons">
                     mail
                 </span>
-                <p>{state.email}</p>
+                <p>{state.contactInfo.email}</p>
 
             </div>
             <div className="contact-info-item">
                 <span className="material-symbols-outlined icons">
                     smartphone
                 </span>
-                <p>{state.telephone}</p>
+                <p>{state.contactInfo.telephone}</p>
 
             </div>
             <div className="contact-info-item">
                 <span className="material-symbols-outlined icons">
                     location_on
                 </span>
-                <p>{state.location}</p>
+                <p>{state.contactInfo.location}</p>
 
             </div>
             <div className="contact-info-item">
                 <span className="material-symbols-outlined icons">
                     link
                 </span>
-                <p>{state.linkedin}</p>
+                <p>{state.contactInfo.linkedin}</p>
             </div>
         </div>
     )

@@ -1,7 +1,10 @@
-import BasicInfo from "./BasicInfo";
-import ContactInfo from "./ContactInfo";
+import BasicInfo from "./BasicInfoBuilder";
+import ContactInfo from "./ContactInfoBuilder";
 import "../../styles/builder/builderWrapper.css";
 import BuilderHeader from "./BuilderHeader";
+import EducationInfo from "./EducationInfoBuilder.jsx";
+import TechnicalSkillsInfoBuilder from "./TechnicalSkillsInfoBuilder";
+import ExperienceInfoBuilder from "./ExperienceInfoBuilder";
 
 export default function BuilderWrapper() {
 
@@ -10,6 +13,9 @@ export default function BuilderWrapper() {
             <BuilderHeader></BuilderHeader>
             <BasicInfo></BasicInfo>
             <ContactInfo></ContactInfo>
+            <EducationInfo></EducationInfo>
+            <TechnicalSkillsInfoBuilder></TechnicalSkillsInfoBuilder>
+            <ExperienceInfoBuilder></ExperienceInfoBuilder>
         </div>
 
     )

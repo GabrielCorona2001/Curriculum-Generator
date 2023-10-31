@@ -13,10 +13,10 @@ export default function BasicInfo() {
 
     return (
         <div className="basic-info-wrapper">
-            <h1 className="info-title">{state.name + " " + state.lastName}</h1>
+            <h1 className="info-title">{state.basicInfo.name + " " + state.basicInfo.lastName}</h1>
 
-            <p className="info-title">{state.profission}</p>
-            <p className="info-bio">{state.bio}</p>
+            <p className="info-title">{state.basicInfo.profission}</p>
+            <p className="info-bio">{state.basicInfo.bio}</p>
         </div>
     );
 }   
