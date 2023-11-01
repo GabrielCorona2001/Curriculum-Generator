@@ -22,7 +22,7 @@ const InitialState = {
             ""
     }, technicalSkills: {
         items: []
-    }
+    }, experiences: [{}]
 
 }
 
